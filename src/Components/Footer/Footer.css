@@ -1,0 +1,50 @@
+.footer-container{
+    position: relative;
+}
+
+.footer-container>hr{
+    border: 1px solid var(--lightgray);
+    background-color: lightgray;
+}
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social-links{
+    display: flex;
+    gap: 4rem;
+}
+
+.social-links>img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.logo>img{
+    width: 10rem;
+}
+
+.blur-footer-1{
+    bottom: 0;
+    right: 15%;
+    width: 40rem;
+    height: 15rem;
+    filter: blur(175px);
+}
+
+.blur-footer-2{
+    bottom: 0;
+    left: 15%;
+    width: 40rem;
+    height: 15rem;
+    filter: blur(175px);
+}
+

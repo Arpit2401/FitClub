@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar>:nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+
+    .navbar-menu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+    }
+}
